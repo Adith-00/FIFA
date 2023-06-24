@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+body {
+  margin: 20px;
+  background-image: url('fifa3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #ffg;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display:block;
+  border: 1px solid black #333;
+  border-radius: 5px;
+  padding: 14px 16px;
+  margin-right: 10px;
+  color:#05f782;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #05f772;
+  color: white;
+}
+
+/* Style the content */
+.content {
+      background-color:#ffg;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+      margin: 20px;
+}
+
+/* Style the h2 */
+   h1{
+      font-size: 28px;
+      color:white;
+      margin: 20px;
+    }
+ h2 {
+      font-size: 28px;
+      color:white;
+      margin-bottom: 20px;
+    }
+   
+    /* Style the paragraph */
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      color:#cccccc;
+      margin-bottom: 20px;
+    }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffg;
+  text-align: center;
+}
+
+.leaderboard {
+  background-color: #ffg;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.leaderboard h2 {
+  margin-top: 0;
+}
+
+.leaderboard table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.leaderboard th {
+  background-color: #1976d2;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  border: 5px solidblack #ddd;
+}
+
+.leaderboard td {
+  padding: 10px;
+  text-align: center;
+  border: 5px solidblack #ddd;
+}
+
+.leaderboard tbody tr:nth-child(odd) {
+  background-color: #ffg;
+}
+
+.leaderboard tbody tr:hover {
+  background-color: #ffg;
+
+
+</style>
+</head>
+
+<body>
+<font  color="white">
+<br><br><h1> FIFA WORLD CUP 2022-2023 </h1>
+</font>
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a href="todaymatch.html">Todays Match</a>
+  <a href="hili.html">Match Highlights</a>
+  <a href="leader.html">Leader Bord</a>
+</div>
+
+<div class="content">
+<font  color="#aef705">
+
+  <h2>Leader Bord</h2>
+</font>
+<font  color="white">
+  </font>
+</div>
+<div class="leaderboard">
+ <font  color="white">
+  <table>
+    <thead>
+      <tr>
+        <th>Team</th>
+        <th>Played</th>
+        <th>Won</th>
+        <th>Drawn</th>
+        <th>Lost</th>
+        <th>Goals For</th>
+        <th>Goals Against</th>
+        <th>Goal Difference</th>
+        <th>Points</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Brazil</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+        <td>0</td>
+        <td>9</td>
+        <td>2</td>
+        <td>+7</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>France</td>
+        <td>3</td>
+        <td>2</td>
+        <td>1</td>
+        <td>0</td>
+        <td>5</td>
+        <td>2</td>
+        <td>+3</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>Germany</td>
+        <td>3</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>5</td>
+        <td>5</td>
+        <td>0</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Portugal</td>
+        <td>3</td>
+        <td>0</td>
+        <td>2</td>
+        <td>1</td>
+        <td>3</td>
+        <td>4</td>
+        <td>-1</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Argentina</td>
+        <td>3</td>
+        <td>0</td>
+        <td>0</td>
+        <td>3</td>
+        <td>1</td>
+        <td>7</td>
+        <td>-6</td>
+        <td>0</td>
+      </tr>
+    </tbody>
+  </table>
+</font>
+</div>
+
+<div class="footer">
+  <p>copyright@Adith ka</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS 2</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+body {
+  margin: 20px;
+  background-image: url('fifa3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #ffg;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display:block;
+  border: 1px solid black #333;
+  border-radius: 5px;
+  padding: 14px 16px;
+  margin-right: 10px;
+  color:#05f782;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #05f772;
+  color: white;
+}
+
+/* Style the content */
+.content {
+      background-color:#ffg;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+      margin: 20px;
+}
+
+/* Style the h2 */
+   h1{
+      font-size: 28px;
+      color:white;
+      margin: 20px;
+    }
+ h2 {
+      font-size: 28px;
+      color:white;
+      margin-bottom: 20px;
+    }
+   
+   .match-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+.match-table th {
+  background-color: #1976d2;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  border: 5px solidblack #ddd;
+}
+
+.match-table td {
+  padding: 10px;
+  text-align: center;
+  border: 5px solidblack #ddd;
+}
+
+.match-table tbody tr:nth-child(odd) {
+  background-color: #ffg;
+}
+
+.match-table tbody tr:hover {
+  background-color: ##05f772;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffg;
+  text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+<font  color="white">
+<br><br><h1> FIFA WORLD CUP 2022-2023 </h1>
+</font>
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a href="today.html">Todays Match</a>
+  <a href="hili.html">Match Highlights</a>
+  <a href="leader.html">Leader Bord</a>
+</div>
+
+<div class="content">
+<font  color="#aef705">
+
+  <h2>Todays Match</h2>
+</font>
+<font  color="white">
+ <table class="match-table">
+  <thead>
+    <tr>
+      <th>Match</th>
+      <th>Time (GMT)</th>
+      <th>TV Channel</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Spain vs Portugal</td>
+      <td>13:00</td>
+      <td>ESPN</td>
+    </tr>
+    <tr>
+      <td>France vs Germany</td>
+      <td>16:00</td>
+      <td>FOX Sports</td>
+    </tr>
+    <tr>
+      <td>Brazil vs Argentina</td>
+      <td>19:00</td>
+      <td>beIN Sports</td>
+    </tr>
+  </tbody>
+</table>
+
+</font>
+</div>
+
+<div class="footer">
+  <p>copyright@Adith ka</p>
+</div>
+
+</body>
+</html>
